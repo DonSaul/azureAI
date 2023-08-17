@@ -5,8 +5,8 @@ function analyzeFeedback() {
         return;
     }
 
-    const azureApiKey = "<YOUR_AZURE_TEXT_ANALYTICS_KEY>";
-    const endpoint = "https://<YOUR_AZURE_REGION>.api.cognitive.microsoft.com/text/analytics/v3.1/sentiment";
+    const azureApiKey = "17a124870f814731b17ee373d9127f76";
+    const endpoint = "https://eastus.api.cognitive.microsoft.com/text/analytics/v3.1/sentiment";
 
     const requestData = {
         documents: [
